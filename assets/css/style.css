@@ -1,0 +1,93 @@
+#photo {
+    border-radius: 100%;
+    background: url(../img/Charizard.png);
+    background-position: center;
+    background-size: 200px;
+    width: 140px;
+    height: 140px;
+    margin-top:20px;
+}
+
+#bloc
+{
+    height:600px;
+}
+
+footer
+{
+    display:block;
+}
+
+.codeborders
+{
+    border:1px solid black;
+    padding:10px;
+}
+
+.bgGlob
+{
+    background-color:rgb(45,45,48);
+}
+
+.bgCode
+{
+    background-color:rgb(37,37,38);
+}
+
+.borderCode
+{
+    border:1px solid rgb(63,63,70);
+    padding:10px;
+}
+
+.building
+{
+    margin-top:50px;
+}
+
+.bgB
+{
+    background-color:black;
+}
+
+.white
+{
+    border: 1px solid white;
+}
+
+.sizeUp
+{
+    font-size:1.5em;
+}
+
+@keyframes textDelay {
+    0% {color:transparent;}
+    99% {color:transparent;}
+    100% {color:white;}
+}
+  
+  /* The element to apply the animation to */
+#tAnim1 {
+    color:white;
+    animation-name: textDelay;
+    animation-duration: 2s;
+}
+
+#tAnim2 {
+    color:white;
+    animation-name: textDelay;
+    animation-duration: 4s;
+}
+
+#tAnim3 {
+    color:white;
+    margin-top:50px;
+    animation-name: textDelay;
+    animation-duration: 5s;
+}
+
+#boxAnim1
+{
+    display:none;
+    margin-top:50px;
+}
